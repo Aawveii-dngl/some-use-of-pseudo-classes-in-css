@@ -26,9 +26,20 @@ p{
     padding: 3rem;
 }
 .eg1::before{
-    content: url('/image/humidity.png');
-    height: 100px;
-    width: 100px;
+    content: url(//unsplash.it/50/50);
+    vertical-align: middle;
+}
+.cls1::before{
+    content: '';
+    display: inline-block;
+    vertical-align: center;
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    margin-right: 10px;
+}
+.cls2::before{
+    background-image: url(../image/humidity.png);
 }
 .eg2::before{
     content: open-quote;
